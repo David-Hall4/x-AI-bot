@@ -60,6 +60,12 @@ Edit `config.json` with your X bot account credentials:
 
 > ⚠️ `config.json` is gitignored — never commit your credentials.
 
+taskkill /F /IM chrome.exe /T     
+
+- & "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\Temp\ChromeDebug"
+
+- 
+
 Run the bot
 
 ```bash
@@ -123,6 +129,8 @@ This project is for **educational and portfolio purposes**. Use responsibly:
 - Keep `MAX_COMMENTS_PER_SESSION` low to avoid detection
 - X may suspend accounts for aggressive automation
 - Don't spam, shill coins, or post misleading content
+
+
 
 ---
 
